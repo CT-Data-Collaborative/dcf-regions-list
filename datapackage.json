@@ -1,0 +1,43 @@
+{
+  "name": "ct-dcf-region-list",
+  "title": "CT DCF Region List",
+  "description": "List of Connecticut towns with corresponding DCF Regions.",
+  "version": "1.0",
+  "license": {
+    "type": "Open Data Commons Public Domain",
+    "url": "http://opendatacommons.org/licenses/pddl/"
+  },
+  "author": {
+    "name": "Jenna Daly",
+    "email": "jdaly@ctdata.org",
+    "web": "http://ctdata.org"
+  },
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "name": "Town",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FIPS",
+            "type": "string",
+            "format": "default"
+          },          
+          {
+            "name": "Region",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "name": "dcf_region",
+      "title": "DCF Region",
+      "path": "dcf-regions.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+  ]
+}
